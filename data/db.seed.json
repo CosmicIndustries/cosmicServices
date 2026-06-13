@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "createdAt": "2026-06-12T00:00:00.000Z",
+    "updatedAt": "2026-06-12T00:00:00.000Z"
+  },
+  "settings": {
+    "businessName": "CosmicIndustries Mobile Services",
+    "tagline": "Mobile technical service without the runaround.",
+    "phone": "(912) 555-0197",
+    "email": "cosmicindustries@protonmail.com",
+    "privacyEmail": "cosmicindustries@protonmail.com",
+    "serviceArea": "Brunswick, St. Simons, Nahunta, Waycross, Jesup, and Southeast Georgia routes",
+    "address": "Mobile service by appointment",
+    "hours": "Mon–Sat · 8:00 AM–6:00 PM",
+    "bookingWindow": "2–14 days",
+    "stripeMode": "test",
+    "emergencyEnabled": "limited",
+    "epaCertNote": "Refrigerant recovery/handling work must be performed only within the operator’s active certification scope and equipment capability.",
+    "licenseNote": "Key programming, tuning, emissions-adjacent work, and refrigerant services may require local, state, federal, insurance, and manufacturer-specific compliance review before launch.",
+    "drpRto": "4 business hours",
+    "drpRpo": "1 business hour"
+  },
+  "services": [
+    {
+      "id": "svc_ac",
+      "name": "Mobile A/C Recovery & Diagnostics",
+      "slug": "ac-recovery",
+      "category": "Automotive Climate",
+      "summary": "On-site A/C system intake, leak-screening workflow, refrigerant recovery planning, and repair-readiness diagnostics.",
+      "priceFrom": 95,
+      "duration": "60–120 min",
+      "active": true,
+      "b2b": true,
+      "b2c": true,
+      "complianceNote": "EPA 609/608 scope must be verified before paid refrigerant handling. Service copy is deliberately conservative."
+    },
+    {
+      "id": "svc_rekey",
+      "name": "Rekeying & Key Programming Intake",
+      "slug": "rekeying",
+      "category": "Access & Vehicle Keys",
+      "summary": "Vehicle key, fob, lock, and access issue intake with VIN-ready workflow and ownership verification checkpoints.",
+      "priceFrom": 85,
+      "duration": "45–120 min",
+      "active": true,
+      "b2b": true,
+      "b2c": true,
+      "complianceNote": "Requires proof of authorization/ownership. Some modules require dealer-level or locksmith-licensed service partners."
+    },
+    {
+      "id": "svc_tuning",
+      "name": "Tuning Readiness & Diagnostics",
+      "slug": "tuning",
+      "category": "Performance & Calibration",
+      "summary": "Pre-tune health checks, data logging intake, drivability notes, and conservative calibration-readiness consultation.",
+      "priceFrom": 125,
+      "duration": "90–180 min",
+      "active": true,
+      "b2b": true,
+      "b2c": true,
+      "complianceNote": "Emissions-related changes must remain lawful for intended road/off-road use. No defeat-device service language."
+    },
+    {
+      "id": "svc_lawn",
+      "name": "Quiet Electric Lawn Maintenance",
+      "slug": "electric-lawn",
+      "category": "Property Care",
+      "summary": "Low-noise electric mow/trim/edge/blow service for small residential yards, rentals, offices, and managed properties.",
+      "priceFrom": 45,
+      "duration": "45–150 min",
+      "active": true,
+      "b2b": true,
+      "b2c": true,
+      "complianceNote": "No gas exhaust on-site. Route scope depends on battery capacity, weather, and property size."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking_seed_1",
+      "clientId": "client_seed_1",
+      "service": "Quiet Electric Lawn Maintenance",
+      "date": "2026-06-18",
+      "time": "09:00",
+      "name": "Demo Residential Client",
+      "email": "demo@example.com",
+      "phone": "(912) 555-0100",
+      "address": "Small residential yard · Brunswick GA",
+      "vehicle": "",
+      "notes": "Recurring biweekly interest; prefers quiet morning window.",
+      "status": "new",
+      "source": "seed",
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "updatedAt": "2026-06-12T00:00:00.000Z"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "quote_seed_1",
+      "clientId": "client_seed_2",
+      "company": "Demo Property Group",
+      "contactName": "Operations Manager",
+      "email": "ops@example.com",
+      "phone": "(912) 555-0144",
+      "siteCount": "8",
+      "serviceMix": "Electric lawn routes + vehicle A/C intake days",
+      "city": "Brunswick",
+      "message": "Wants one vendor for recurring small-yard route and occasional fleet intake days.",
+      "status": "new",
+      "estimatedValue": 0,
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "updatedAt": "2026-06-12T00:00:00.000Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client_seed_1",
+      "type": "B2C",
+      "name": "Demo Residential Client",
+      "email": "demo@example.com",
+      "phone": "(912) 555-0100",
+      "company": "",
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "updatedAt": "2026-06-12T00:00:00.000Z",
+      "tags": ["residential", "lawn"]
+    },
+    {
+      "id": "client_seed_2",
+      "type": "B2B",
+      "name": "Operations Manager",
+      "email": "ops@example.com",
+      "phone": "(912) 555-0144",
+      "company": "Demo Property Group",
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "updatedAt": "2026-06-12T00:00:00.000Z",
+      "tags": ["property-manager", "fleet"]
+    }
+  ],
+  "messages": [],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "name": "Property manager",
+      "role": "B2B client profile",
+      "rating": 5,
+      "text": "The best vendor is the one who documents the problem, fixes the workflow, and does not create a second mess. This is built for that kind of client.",
+      "published": true
+    },
+    {
+      "id": "rev_2",
+      "name": "Residential client",
+      "role": "Homeowner profile",
+      "rating": 5,
+      "text": "Quiet, clear, and practical. The service menu makes it easy to ask for help without decoding shop jargon.",
+      "published": true
+    },
+    {
+      "id": "rev_3",
+      "name": "Fleet lead",
+      "role": "Operations profile",
+      "rating": 5,
+      "text": "The quote flow asks the right questions: site count, service mix, timing, and what a good outcome looks like.",
+      "published": true
+    }
+  ],
+  "invoices": [
+    {
+      "id": "invoice_seed_1",
+      "clientName": "Demo Property Group",
+      "amount": 420,
+      "status": "draft",
+      "dueDate": "2026-07-01",
+      "memo": "Demo NET-30 recurring route invoice",
+      "createdAt": "2026-06-12T00:00:00.000Z",
+      "updatedAt": "2026-06-12T00:00:00.000Z"
+    }
+  ],
+  "privacyRequests": [],
+  "consents": [],
+  "auditLog": []
+}
