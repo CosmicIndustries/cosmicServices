@@ -1,9 +1,0 @@
-{
-  "name": "CosmicIndustries Mobile Services",
-  "short_name": "CI Services",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#fffdf6",
-  "theme_color": "#2f6f4e",
-  "description": "Mobile A/C intake, rekeying workflow, tuning readiness, and quiet electric lawn maintenance."
-}
